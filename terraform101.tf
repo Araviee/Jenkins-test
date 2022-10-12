@@ -21,8 +21,4 @@ resource "aws_instance" "test" {
   tags = {
     Name = "Test"
   }
-output "IP"{
-  value = IP.aws_instance.test.public_ip
-}
-
 }
