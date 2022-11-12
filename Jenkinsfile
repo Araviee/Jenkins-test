@@ -5,7 +5,7 @@ pipeline {
         AWS_SECRET_ACCESS_KEY = credentials('Secret')
     }
     tools {
-  terraform 'Agent terraform'
+  terraform 'terraform'
         
     }
 
