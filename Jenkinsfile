@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-  label 'Cloud'
-}
+    agent any
     environment {
         AWS_ACCESS_KEY_ID     = credentials('Access')
         AWS_SECRET_ACCESS_KEY = credentials('Secret')
